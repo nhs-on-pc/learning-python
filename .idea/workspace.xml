@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9612e79a-c0e0-478f-96f6-0ffcb94fe892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-py.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9612e79a-c0e0-478f-96f6-0ffcb94fe892" name="Default Changelist" comment="them folder 1">
+      <change afterPath="$PROJECT_DIR$/day1/send-email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/Book1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/Book2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/Demo.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/Ferrario.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/FerrarioBW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/FerrarioBikini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/PythonBuoi3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/ferarrio_ava.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/~$Demo.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/~$thonBuoi3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample[ZaloPC_Folder].zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/zip_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/day1/zip_file.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day1/zip_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -47,10 +36,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day1/send-email.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#112#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zip_file_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -77,16 +78,16 @@
         <option value="$PROJECT_DIR$/prime_number.py" />
         <option value="$PROJECT_DIR$/exercise2.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
-        <option value="$PROJECT_DIR$/day1/zip_file.py" />
         <option value="$PROJECT_DIR$/zip_file_2.py" />
         <option value="$PROJECT_DIR$/test-py.py" />
+        <option value="$PROJECT_DIR$/day1/zip_file.py" />
+        <option value="$PROJECT_DIR$/day1/send-email.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="450" />
-    <option name="y" value="283" />
-    <option name="width" value="881" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -142,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test-py">
+  <component name="RunManager" selected="Python.send-email">
     <configuration name="ex1-poem bottles of beer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dev-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="send-email" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dev-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day1/send-email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.send-email" />
         <item itemvalue="Python.test-py" />
         <item itemvalue="Python.ex1-poem bottles of beer" />
         <item itemvalue="Python.zip_file_2" />
         <item itemvalue="Python.zip_file" />
-        <item itemvalue="Python.scratch_1" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +270,21 @@
       <option name="presentableId" value="Default" />
       <updated>1557712630425</updated>
     </task>
+    <task id="LOCAL-00001" summary="them test-py">
+      <created>1558438767881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558438767881</updated>
+    </task>
+    <task id="LOCAL-00002" summary="them folder 1">
+      <created>1558439446702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558439446702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -281,20 +297,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1264489" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32214764" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32688588" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39501438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32981783" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32981783" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32981783" />
@@ -302,6 +318,11 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="them test-py" />
+    <MESSAGE value="them folder 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="them folder 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,27 +379,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_excel/Read_openyxl.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex1-poem bottles of beer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/zip_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,10 +393,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zip_file_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/zip_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/send-email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#112#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
