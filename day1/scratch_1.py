@@ -1,22 +1,9 @@
-import csv
+def chap2mang(array1, array2):
+    array3 = array1 + array2
+    array3.sort(key=int, reverse=False)
+    print(array3)
 
-with open('movies.csv', encoding="utf8") as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    line_count = 0
-    for row in csv_reader:
-        if line_count > 0:
-            film = row[1]
-            if film.endswith(" "):
-                year = film[-6:-2]
-            else:
-                year = film[-5:-1]
 
-            try: # Cần phải có try để bắt lỗi khi convert string sang int
-                if 2010 >= int(year) >= 2000:
-                    print(f'{row[0]} - {row[1]} - {row[2]}.')
-                    pass
-            except ValueError:
-                print(f"{line_count} - {film}")
-                pass
-        line_count += 1
-    print(f'Processed {line_count} lines.')
+a = [1, 2, 3, 8, 10]
+b = [7, 9, 10]
+chap2mang(a, b)

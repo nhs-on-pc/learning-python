@@ -1,2 +1,3 @@
-a = 123.23234512312
-print(round(a, 2))
+a = [0, 1, 3, 4, 5]
+print(len(a))
+print(a[2])
