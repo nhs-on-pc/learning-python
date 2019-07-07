@@ -1,17 +1,21 @@
-def ptb2(a: float, b: float, c: float) -> (float, float):
+def ptb2(a: float, b: float, c: float):
+    if a <= 0 and (b, c) < 0:
+        print("Nhap lai a, b, c")
+    else:
+        delta = b*b - 4*a*c
 
-    a = int(input("Nhap a:"))
-    b = int(input("Nhap b:"))
-    c = int(input("Nhap c:"))
+        if delta < 0:
+            #print(-delta**(1/2))
+            x1 = complex(-b/(2*a), -(-delta**(1/2))/(2*a))
+            x2 = complex(-b/(2*a), +(-delta**(1/2))/(2*a))
+            print("Phuong trinh co hai nghiem phuc phan biet: ", x1, x2)
 
-    delta = b**b - 4*a*c
+        elif delta == 0:
+            x = round(-b/(2*a), 3)
+            print("Nghiem kep cua phuong trinh la: ", x)
+        else:
+            x3 = round((-b - delta**(1/2))/(2*a), 3)
+            x4 = round((-b + delta**(1/2))/(2*a), 3)
+            print("Phuong trinh co hai nghiem: ", x3, x4)
 
-    if delta < 0:
-        print("Phuong trinh vo nghiem")
-    if delta == 0:
-        x = -b/2*a
-        print("Nghiem cua phuong trinh la: ", x)
-    if delta > 0:
-        x1 = (-b - delta**1/2)/2*a
-        x2 = (-b + delta**1/2)/2*a
-        print("Nghiem kep cua phuong trinh la: ", x1, x2)
+ptb2(1, 3, -2)
