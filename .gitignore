@@ -115,3 +115,6 @@ dmypy.json
 
 # ignore .idea folder
 .idea/
+
+# ignore .git folder
+.git/
