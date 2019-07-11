@@ -10,9 +10,3 @@ with open('sales100.csv') as csv_file:  # mở file csv
 
     list_region = list(region_set)
     print(sorted(list_region))
-
-
-'''
-genres = row[2].split('|') genre_set |= set(genres) line_count += 1
- listphim = list(genre_set) print(listphim) print(f'Processed {line_count} lines.')
-'''
